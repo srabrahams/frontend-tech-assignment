@@ -1,5 +1,6 @@
 //variables
 $dark-green: #173F4B;
+$light-green: #3C7F90;
 $teal: #00B897;
 $white: #FFFFFF;
 // End variables
@@ -18,18 +19,71 @@ $white: #FFFFFF;
   font-weight: 400;
 
   &--title {
-    padding: 12.5px 0 17px 0;
+    padding: 12.5px 8px 17px 8px;
   }
 
   &--down-arrow {
     content: '';
     position: absolute;
-    bottom: -6px;
+    bottom: -9px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     border-width: 6px 7px 0;
     border-style: solid;
     border-color: $dark-green transparent;
   }
+
+  &--up-arrow {
+    content: '';
+    position: absolute;
+    top: -9px;
+    left: 50%;
+    transform: translate(50%, -50%);
+    border-width: 6px 7px 0;
+    border-style: solid;
+    border-color: $dark-green transparent;
+    rotate: 180deg;
+  }
+
+  &--up-arrow-light-green {
+    content: '';
+    position: absolute;
+    top: -6px;
+    right: 25px;
+    transform: translateX(-50%);
+    border-width: 6px 7px 0;
+    border-style: solid;
+    border-color: $light-green transparent;
+    rotate: 180deg;
+  }
+
+  &--light-green {
+    background-color: $light-green;
+  }
+
+  &--stroke-bottom {
+    height: 16px;
+    width: 2px;
+    background-color: $light-green;
+    border-radius: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 22px;
+  }
+
+  &--stroke-top {
+    height: 16px;
+    width: 2px;
+    background-color: $light-green;
+    border-radius: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.timeline {
+
 }
  

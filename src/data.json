@@ -1,0 +1,52 @@
+{
+    "cardData": {
+        "birth": {
+            "imgAlt": "Family",
+            "title": "Baby's birth"
+        },
+        "holiday": {
+            "imgAlt": "Holiday",
+            "title": "Holiday"
+        },
+        "retire": {
+            "imgAlt": "Retire",
+            "title": "Retire"
+        },
+        "newHome": {
+            "imgAlt": "New home",
+            "title": "New home"
+        },
+        "emergencyFund": {
+            "imgAlt": "Emergency fund",
+            "title": "Emergency fund"
+        },
+        "debtFree": {
+            "imgAlt": "Debt free",
+            "title": "Debt free"
+        },
+        "contribution": {
+            "imgAlt": "Contribution to my community",
+            "title": "Make a contribution to my community through philantrophy"
+        }
+    },
+    "timeline": {
+        "one": {
+            "title": "You are here"
+        },
+        "two": {
+            "title": "In 1 year and 9 months"
+        },
+        "three": {
+            "title": "In 3 years and 2 months"
+        },
+        "four": {
+            "title": "In 4 years and 9 months"
+        },
+        "five": {
+            "title": "In 8 years and 11 months"
+        },
+        "six": {
+            "title": "Ultimately"
+        }
+    }
+}

@@ -1,15 +1,15 @@
 import React from 'react';
 import './styles.css';
 
-const CardComponent = (props: any) => {
+const CardComponentTwo = (props: any) => {
   return (
     <div className='card'>
+      <div className='card--stroke-top'></div>
+      <div className='card--up-arrow'></div>
       <img src={ props.imgSrc } alt={ props.imgAlt } />
       <div className='card--title'>{ props.title }</div>
-      <div className='card--down-arrow'></div>
-      <div className='card--stroke-bottom'></div>
     </div>
   );
 };
 
-export default CardComponent;
+export default CardComponentTwo;
