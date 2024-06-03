@@ -1,3 +1,35 @@
+.app-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.event-planner {
+  position: relative;
+  max-width: 834px; }
+
+.card-collection {
+  display: flex; }
+  .card-collection--block {
+    position: relative;
+    max-width: 130px; }
+    .card-collection--block__stroke {
+      height: 16px;
+      width: 2px;
+      background-color: #3C7F90;
+      border-radius: 2px;
+      margin: 0 auto;
+      margin-top: 15px;
+      margin-bottom: 5px; }
+  .card-collection--birth {
+    margin-left: 28px; }
+  .card-collection--holiday {
+    margin-left: 9px; }
+  .card-collection--retire {
+    position: absolute;
+    right: 32px; }
+
 .card {
   width: 130px;
   background-color: #173F4B;
@@ -43,20 +75,78 @@
     rotate: 180deg; }
   .card--light-green {
     background-color: #3C7F90; }
-  .card--stroke-bottom {
-    height: 16px;
-    width: 2px;
-    background-color: #3C7F90;
+
+.timeline {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .timeline--start-dot {
+    width: 18px;
+    height: 18px;
+    background-color: #00B897;
+    position: relative;
+    border-radius: 50%; }
+    .timeline--start-dot::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      background-color: #215A6B;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+  .timeline--event-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #00B897;
+    border-radius: 50%;
+    position: relative; }
+  .timeline--event-line-1 {
+    width: 65px;
+    height: 1px;
+    background-color: #FFFFFF;
     border-radius: 2px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 22px; }
-  .card--stroke-top {
-    height: 16px;
-    width: 2px;
-    background-color: #3C7F90;
+    margin: 0 3px; }
+  .timeline--event-line-2 {
+    width: 125px;
+    height: 1px;
+    background-color: #FFFFFF;
     border-radius: 2px;
+    margin: 0 3px; }
+  .timeline--event-line-3 {
+    width: 188.5px;
+    height: 1px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    margin: 0 3px; }
+  .timeline--event-line-dotted {
+    height: 1px;
+    width: 174px;
+    border-bottom: 3px dotted #FFFFFF;
+    margin: 0 3px; }
+  .timeline--arrow {
+    height: 16px;
+    margin-top: 4px; }
+  .timeline--event-text-start {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-top: 24px;
     position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%); }
+    width: 51px;
+    margin-left: -16px; }
+  .timeline--event-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-top: 20px;
+    position: absolute;
+    width: 100px;
+    margin-left: -42px; }

@@ -7,7 +7,6 @@ const CardComponent = (props: any) => {
       <img src={ props.imgSrc } alt={ props.imgAlt } />
       <div className='card--title'>{ props.title }</div>
       <div className='card--down-arrow'></div>
-      <div className='card--stroke-bottom'></div>
     </div>
   );
 };
