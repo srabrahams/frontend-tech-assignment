@@ -1,6 +1,6 @@
 .app-container {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -49,11 +49,13 @@
       margin-bottom: 15px; }
   .card-collection--contribution {
     position: absolute;
-    right: -18px;
+    right: -20px;
     margin-top: 43px; }
     .card-collection--contribution .card-collection--block__stroke {
       margin-top: 5px;
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      position: relative;
+      left: 40px; }
 
 .card {
   width: 130px;
@@ -175,3 +177,5 @@
     position: absolute;
     width: 100px;
     margin-left: -42px; }
+    .timeline--event-text__end {
+      margin-top: 13px; }

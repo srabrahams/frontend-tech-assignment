@@ -8,7 +8,7 @@ $white: #FFFFFF;
 
 .app-container {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,12 +82,14 @@ $white: #FFFFFF;
 
   &--contribution {
     position: absolute;
-    right: -18px;
+    right: -20px;
     margin-top: 43px;
 
     .card-collection--block__stroke {
       margin-top: 5px;
       margin-bottom: 15px;
+      position: relative;
+      left: 40px;
     }
   }
 }
@@ -242,6 +244,10 @@ $white: #FFFFFF;
     position: absolute;
     width: 100px;
     margin-left: -42px;
+
+    &__end {
+      margin-top: 13px;
+    }
   }
 }
 

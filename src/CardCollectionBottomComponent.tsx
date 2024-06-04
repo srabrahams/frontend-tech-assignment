@@ -1,14 +1,15 @@
-import React from 'react';
 import './styles.css';
 import CardComponentTwo from './CardComponentTwo';
 import CardComponentThree from './CardComponentThree';
-import data from './data.json'
+import data from './data.json';
+
+//Images
 import debt from './debt.svg';
 import home from './home.svg';
 import emergency from './em-fund.svg';
 import vision from './vision.svg';
 
-const CardCollectionBottomComponent = (props: any) => {
+const CardCollectionBottomComponent = () => {
   return (
     <div className='card-collection'>
       <div className='card-collection--block card-collection--new-home'>

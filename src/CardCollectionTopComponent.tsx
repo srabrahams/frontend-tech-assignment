@@ -1,11 +1,13 @@
-import React from 'react';
 import './styles.css';
 import CardComponent from './CardComponent';
 import data from './data.json'
+
+//Images
 import family from './family.svg';
 import holiday from './going-holiday.svg';
+import retire from './retire.svg';
 
-const CardCollectionTopComponent = (props: any) => {
+const CardCollectionTopComponent = () => {
   return (
     <div className='card-collection'>
       <div className='card-collection--block card-collection--birth'>
@@ -17,7 +19,7 @@ const CardCollectionTopComponent = (props: any) => {
         <div className='card-collection--block__stroke'></div>
       </div>
       <div className='card-collection--block card-collection--retire'>
-        <CardComponent imgSrc={holiday} imgAlt={data.cardData.retire.imgAlt} title={data.cardData.retire.title} />
+        <CardComponent imgSrc={retire} imgAlt={data.cardData.retire.imgAlt} title={data.cardData.retire.title} />
         <div className='card-collection--block__stroke'></div>
       </div>
     </div>
