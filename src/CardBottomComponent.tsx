@@ -1,6 +1,6 @@
 import './styles.css';
 
-const CardComponentTwo = (props: any) => {
+const CardBottomComponent = (props: any) => {
   return (
     <div className='card'>
       <div className='card--up-arrow'></div>
@@ -10,4 +10,4 @@ const CardComponentTwo = (props: any) => {
   );
 };
 
-export default CardComponentTwo;
+export default CardBottomComponent;

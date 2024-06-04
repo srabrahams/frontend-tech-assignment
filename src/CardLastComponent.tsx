@@ -1,6 +1,6 @@
 import './styles.css';
 
-const CardComponentThree = (props: any) => {
+const CardLastComponent = (props: any) => {
   return (
     <div className='card card--light-green'>
       <div className='card--up-arrow-light-green'></div>
@@ -10,4 +10,4 @@ const CardComponentThree = (props: any) => {
   );
 };
 
-export default CardComponentThree;
+export default CardLastComponent;
