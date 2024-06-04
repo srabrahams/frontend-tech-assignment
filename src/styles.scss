@@ -49,6 +49,47 @@ $white: #FFFFFF;
     position: absolute;
     right: 32px;
   }
+
+  &--new-home {
+    margin-left: 28px;
+    margin-top: 43px;
+
+    .card-collection--block__stroke {
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+  }
+
+  &--emergency-fund {
+    margin-left: 148px;
+    margin-top: 43px;
+
+    .card-collection--block__stroke {
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+  }
+
+  &--debt-free {
+    margin-left: 72px;
+    margin-top: 43px;
+
+    .card-collection--block__stroke {
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+  }
+
+  &--contribution {
+    position: absolute;
+    right: -18px;
+    margin-top: 43px;
+
+    .card-collection--block__stroke {
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+  }
 }
 
 .card {

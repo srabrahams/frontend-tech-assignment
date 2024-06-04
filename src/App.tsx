@@ -4,6 +4,7 @@ import CardComponent from './CardComponent';
 import CardComponentTwo from './CardComponentTwo';
 import CardComponentThree from './CardComponentThree';
 import CardCollectionTopComponent from './CardCollectionTopComponent';
+import CardCollectionBottomComponent from './CardCollectionBottomComponent';
 import TimelineComponent from './TimelineComponent';
 import data from './data.json'
 
@@ -18,6 +19,7 @@ const App: React.FC = () => {
         {/* <CardComponent imgSrc={family} imgAlt={data.cardData.birth.imgAlt} title={data.cardData.birth.title} /> */}
         {/* <CardComponentThree imgSrc={family} imgAlt={data.cardData.contribution.imgAlt} title={data.cardData.contribution.title} /> */}
         <TimelineComponent />
+        <CardCollectionBottomComponent />
       </div>
     </div>
   );
